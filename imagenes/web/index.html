@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Empresa Multilenguaje</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <!-- Barra superior -->
+  <div class="top-bar">
+    <div class="logo">
+      <img src="https://via.placeholder.com/120x40?text=LOGO" alt="Logo Empresa">
+    </div>
+    <div class="contact-container">
+      <div class="contacto">
+        <i class="fas fa-phone"></i> +52 55 1234 5678 |
+        <i class="fas fa-envelope"></i> contacto@miempresa.com
+      </div>
+      <!-- Interruptor idioma -->
+      <div class="lang-toggle">
+        <label class="switch">
+          <input type="checkbox" id="toggleIdioma">
+          <span class="slider"></span>
+          <span class="labels">
+            <span class="es">ES</span>
+            <span class="en">EN</span>
+          </span>
+        </label>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hero -->
+  <section id="inicio" class="hero">
+    <h2 data-key="hero_titulo">Construyendo un futuro mejor</h2>
+    <p data-key="hero_desc">Innovación y compromiso con nuestros clientes</p>
+  </section>
+
+  <!-- Quiénes somos -->
+  <section id="quienes">
+    <h2 data-key="quienes">Quiénes somos</h2>
+    <p data-key="quienes_texto">Somos una empresa dedicada a ofrecer soluciones innovadoras y de alta calidad.</p>
+  </section>
+
+  <!-- Servicios -->
+  <section id="servicios">
+    <h2 data-key="servicios">Qué hacemos</h2>
+    <div class="servicios-grid">
+
+      <div class="card">
+        <img src="https://via.placeholder.com/400x250/1e3a8a/ffffff?text=Servicio+1" alt="Servicio 1">
+        <h3 data-key="serv1">Servicio 1</h3>
+        <div class="descripcion" data-key="serv1_desc">
+          <p>Descripción extendida del primer servicio.</p>
+        </div>
+        <div class="btn-toggle">Ver más</div>
+      </div>
+
+      <div class="card">
+        <img src="https://via.placeholder.com/400x250/1e3a8a/ffffff?text=Servicio+2" alt="Servicio 2">
+        <h3 data-key="serv2">Servicio 2</h3>
+        <div class="descripcion" data-key="serv2_desc">
+          <p>Descripción extendida del segundo servicio.</p>
+        </div>
+        <div class="btn-toggle">Ver más</div>
+      </div>
+
+      <div class="card">
+        <img src="https://via.placeholder.com/400x250/1e3a8a/ffffff?text=Servicio+3" alt="Servicio 3">
+        <h3 data-key="serv3">Servicio 3</h3>
+        <div class="descripcion" data-key="serv3_desc">
+          <p>Descripción extendida del tercer servicio.</p>
+        </div>
+        <div class="btn-toggle">Ver más</div>
+      </div>
+
+      <div class="card">
+        <img src="https://via.placeholder.com/400x250/1e3a8a/ffffff?text=Servicio+4" alt="Servicio 4">
+        <h3 data-key="serv4">Servicio 4</h3>
+        <div class="descripcion" data-key="serv4_desc">
+          <p>Descripción extendida del cuarto servicio.</p>
+        </div>
+        <div class="btn-toggle">Ver más</div>
+      </div>
+
+      <div class="card">
+        <img src="https://via.placeholder.com/400x250/1e3a8a/ffffff?text=Servicio+5" alt="Servicio 5">
+        <h3 data-key="serv5">Servicio 5</h3>
+        <div class="descripcion" data-key="serv5_desc">
+          <p>Descripción extendida del quinto servicio.</p>
+        </div>
+        <div class="btn-toggle">Ver más</div>
+      </div>
+
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
